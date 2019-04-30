@@ -16,10 +16,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/scrollView1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.569">
 
         <TextView
             android:id="@+id/textView1"
@@ -30,7 +30,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="17dp"
             android:layout_marginEnd="146dp"
-            android:text="Add to Favourites"
+            android:text="@string/add_to_favourites"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.096"
@@ -40,17 +40,18 @@
 
         <ImageView
             android:id="@+id/fav"
-            android:layout_width="38dp"
+            android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="17dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="17dp"
             android:layout_marginEnd="11dp"
             android:layout_toStartOf="@+id/textView1"
-            android:layout_weight="1000"
             android:clickable="true"
-            android:src="@drawable/ic_add_black_24dp">
+            android:src="@drawable/ic_add_black_24dp"
+            android:contentDescription="TODO"
+            android:focusable="true">
 
         </ImageView>
 
@@ -61,12 +62,12 @@
             android:layout_below="@+id/textView1"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="127dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="10dp"
             android:layout_toEndOf="@+id/myfav"
-            android:text="My Favourites" />
+            android:text="@string/my_favourites" />
 
         <ImageView
             android:id="@+id/myfav"
@@ -78,10 +79,10 @@
             android:layout_marginStart="9dp"
             android:layout_marginTop="26dp"
             android:layout_marginBottom="12dp"
-            android:layout_weight="1000"
             android:clickable="true"
             android:contentDescription="show the favs"
-            android:src="@drawable/ic_favorite_black_24dp"></ImageView>
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:focusable="true"></ImageView>
 
 
     </RelativeLayout>

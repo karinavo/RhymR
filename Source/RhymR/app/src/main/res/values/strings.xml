@@ -9,8 +9,8 @@
     <string name="todo">TODO</string>
     <string name="select_a_category">Select a category</string>
     <string name="id">Volobuieva Karyna 01568897</string>
-    <string name="add_to_favourites">add_fav</string>
-    <string name="my_favourites">my_fav</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="my_favourites">My Favourites</string>
     <string-array name="filtersname">
         <item>Synonym</item>
         <item>Adjectives</item>
