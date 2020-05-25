@@ -1,9 +1,5 @@
 ## Readme
 
-* Name:	[Karyna Volobuieva]
-* Matr.-Nr.:	[a01568897]
-* Gruppe:	[FR]
-
 
 ### Implementierung
 
